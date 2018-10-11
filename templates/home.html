@@ -1,0 +1,11 @@
+{% extends "main.html" %}
+{% block content %}
+<a href = '{{url_for('showAccounts')}}'>
+    <button>List All Accounts</button>
+</a>
+
+<a href = '{{url_for('newCompetetion')}}'>
+    <button>Add a new Account</button>
+</a>
+<!-- <p>Navigate to <a href="add.html">Create New Account</a> or <a href="list.html">List All Accounts</a></p> -->
+{% endblock %}

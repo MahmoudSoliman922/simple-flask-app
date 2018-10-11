@@ -1,0 +1,10 @@
+{% extends "main.html" %}
+{% block content %}
+	<h1>Accounts</h1>
+	{% for account in accounts %}
+					<div>
+						<h3>{{account.name}}</h3>
+						<h3>{{account.email}}</h3>
+					</div>
+	{% endfor %}
+{% endblock %}
